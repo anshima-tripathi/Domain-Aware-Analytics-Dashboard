@@ -81,7 +81,7 @@ pgsql
 Copy code
 
 📦 AI Analytics Dashboard Pipeline
-
+```bash
 ├── 🔧 Data Processing Layer
 
 │   ├── CSVDataLoader - Handles file reading, encoding detection, preprocessing
@@ -99,7 +99,7 @@ Copy code
 └── ⚙️ Configuration Layer
 
 &nbsp;   └── ConfigManager - Manages settings and API keys
-
+```
 🧩 Project Structure
 
 graphql
@@ -107,6 +107,7 @@ graphql
 Copy code
 
 .
+```bash
 
 ├── config/
 
@@ -143,7 +144,7 @@ Copy code
 │   └── llm\_client.py          # AI client for dashboard generation
 
 └── requirements.txt
-
+```
 🧠 Core Capabilities
 
 ✅ Automated Data Profiling
