@@ -1,4 +1,4 @@
-\# 🌐 Domain-Aware Analytics Dashboard
+# 🌐 Domain-Aware Analytics Dashboard
 
 
 
@@ -10,7 +10,7 @@
 
 
 
-\## ✨ Overview
+## ✨ Overview
 
 
 
@@ -24,13 +24,13 @@ By combining \*\*Large Language Models (LLMs)\*\* with \*\*data profiling\*\*, i
 
 
 
-\## ⚙️ Clone and Setup Pipeline
+## ⚙️ Clone and Setup Pipeline
 
 
 
 ```bash
 
-\# Clone the repository
+# Clone the repository
 
 git clone <repository-url>
 
@@ -38,7 +38,7 @@ cd ai-analytics-dashboard
 
 
 
-\# Create and activate a virtual environment
+# Create and activate a virtual environment
 
 python -m venv venv
 
@@ -46,7 +46,7 @@ source venv/bin/activate   # On Windows: venv\\Scripts\\activate
 
 
 
-\# Install dependencies
+# Install dependencies
 
 pip install -r requirements.txt
 
@@ -56,7 +56,7 @@ bash
 
 Copy code
 
-\# Run the end-to-end analytics pipeline
+# Run the end-to-end analytics pipeline
 
 python main.py your-file.csv
 
@@ -66,7 +66,7 @@ bash
 
 Copy code
 
-\# Run Streamlit UI only
+# Run Streamlit UI only
 
 streamlit run dashboard\_app.py
 
